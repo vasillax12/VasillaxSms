@@ -2,7 +2,7 @@ uygulamanın kodlarını çalamazsınız.
 çalışması için cmdyi açıp sırasıyla şunları yazınız.
 
 cd desktop
-cd VasillaxGüncelsms
+cd [dosyanin ismi]
 pip3 install -r requirements.txt
 
 dosyayı zipten çıkartın ve masaüstüne atın ki çalışsın.
