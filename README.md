@@ -1,5 +1,7 @@
 # VasillaxSms
 
+Discordum
+https://discord.gg/4BeRz7Wh
 
 Güncel Sms Bomber.
 
