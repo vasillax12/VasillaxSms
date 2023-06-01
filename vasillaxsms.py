@@ -801,7 +801,7 @@ while 1 :#line:1113
                 if len (tel_no )!=10 :#line:1200
                     raise ValueError #line:1201
                 tel_liste .append (tel_no )#line:1202
-                sonsuz ="(Sonsuz ise 'enter' tuşuna basınız)"#line:1203
+                sonsuz ="(Sonsuz ise 'enter' tuşuna basınız\n Siz uygulamayı kapatana kadar devam edecektir.)"#line:1203
             except ValueError :#line:1204
                 system ("cls||clear")#line:1205
                 print (Fore .LIGHTRED_EX +"Hatalı telefon numarası. Tekrar deneyiniz.")#line:1206
@@ -833,7 +833,7 @@ while 1 :#line:1113
             continue #line:1232
         system ("cls||clear")#line:1233
         try :#line:1234
-            print (Fore .LIGHTYELLOW_EX +"Kaç saniye aralıkla göndermek istiyorsun: "+Fore .LIGHTGREEN_EX ,end ="")#line:1235
+            print (Fore .LIGHTYELLOW_EX +"Kaç saniye aralıkla göndermek istiyorsun\n 0 en hızlısı :): "+Fore .LIGHTGREEN_EX ,end ="")#line:1235
             aralik =int (input ())#line:1236
         except ValueError :#line:1237
             system ("cls||clear")#line:1238
@@ -912,7 +912,7 @@ while 1 :#line:1113
         input ()#line:1311
     elif menu ==3 :#line:1312
         system ("cls||clear")#line:1313
-        print (Fore .LIGHTWHITE_EX +" tingirifistik\n Bora185\n Arcturus")#line:1314
+        print (Fore .LIGHTWHITE_EX +" Arayüz güncellendi.\n Takılma sorunları için çözüm aranıyor.\n discord bekleriz")#line:1314
         sleep (12 )#line:1315
     elif menu ==4 :#line:1316
         system ("cls||clear")#line:1317
